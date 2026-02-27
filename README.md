@@ -63,8 +63,9 @@ It includes **filtering options** (date range, category, status) and supports **
   "password": "string (hashed)",
   "createdAt": "Date",
   "updatedAt": "Date"
-}
+}```
 ### Sales Collection
+```json
 {
   "_id": "ObjectId",
   "product": "string",
@@ -73,8 +74,9 @@ It includes **filtering options** (date range, category, status) and supports **
   "quantity": "number",
   "revenue": "number",
   "date": "Date"
-}
+}```
 ## Folder Structure
+```json
 analytics-dashboard/
 │
 ├─ backend/
@@ -94,6 +96,7 @@ analytics-dashboard/
 │  └─ package.json
 │
 └─ README.md
+```
 
 
 ## Deployed Screenshots
