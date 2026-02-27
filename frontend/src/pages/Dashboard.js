@@ -29,9 +29,16 @@ ChartJS.register(
 
 const token = localStorage.getItem("token");
 
-const res = await axios.get("http://localhost:5000/api/sales/summary", {
+// const res = await axios.get("http://localhost:5000/api/sales/summary", {
+//   headers: {
+//     Authorization: `Bearer ${token}`,
+//   },
+// });
+
+let query = `${process.env.REACT_APP_API_URL}/api/sales/summary?`; // instead of localhost
+const res = await axios.get(query, {
   headers: {
-    Authorization: `Bearer ${token}`,
+    Authorization: `Bearer ${token}`, // send the JWT
   },
 });
 
@@ -57,7 +64,8 @@ const Dashboard = () => {
       setLoading(true);
       setError(null);
 
-      let query = "http://localhost:5000/api/sales/summary?";
+      // let query = "http://localhost:5000/api/sales/summary?";
+      let query = `${process.env.REACT_APP_API_URL}/api/sales/summary?`;
 
       if (startDate && endDate)
         query += `startDate=${startDate}&endDate=${endDate}&`;
