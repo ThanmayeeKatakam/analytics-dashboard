@@ -81,7 +81,7 @@ It includes **filtering options** (date range, category, status) and supports **
 ---
 
 ## Folder Structure
-
+```json
 analytics-dashboard/
 │
 ├─ backend/
