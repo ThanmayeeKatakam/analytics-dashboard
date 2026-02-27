@@ -141,9 +141,12 @@ App will run at http://localhost:3000
 
 
 ## Deployed Screenshots
+
 ### Login Page
 <img width="1775" height="931" alt="Screenshot 2026-02-27 213639" src="https://github.com/user-attachments/assets/bba0a7a6-456b-41e8-95d4-dc2b9a0c91ad" />
+
 ### Dashboard
+
 <img width="1839" height="933" alt="Screenshot 2026-02-27 214051" src="https://github.com/user-attachments/assets/fdff0cad-2bbf-4be0-af87-114fcb71b8a3" />
 <img width="1783" height="944" alt="Screenshot 2026-02-27 214135" src="https://github.com/user-attachments/assets/f9303639-f11e-402d-8ed7-1af50deff835" />
 <img width="1793" height="947" alt="Screenshot 2026-02-27 214203" src="https://github.com/user-attachments/assets/a0442583-cea6-4cc3-b04e-5bd2af70b881" />
