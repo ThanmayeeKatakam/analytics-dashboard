@@ -102,6 +102,8 @@ analytics-dashboard/
 │
 └─ README.md
 
+```
+
 ---
 
 ## Steps to Run Locally
