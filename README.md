@@ -56,7 +56,7 @@ It includes **filtering options** (date range, category, status) and supports **
 ## Database Schema (MongoDB)
 
 ### Users Collection
-```json
+
 {
   "_id": "ObjectId",
   "email": "string, unique",
@@ -67,7 +67,7 @@ It includes **filtering options** (date range, category, status) and supports **
 
 
 ### Sales Collection
-```json
+
 {
   "_id": "ObjectId",
   "product": "string",
@@ -78,9 +78,10 @@ It includes **filtering options** (date range, category, status) and supports **
   "date": "Date"
 }
 
+---
 
 ## Folder Structure
-```json
+
 analytics-dashboard/
 │
 ├─ backend/
@@ -101,40 +102,40 @@ analytics-dashboard/
 │
 └─ README.md
 
+---
 
-
-Steps to Run Locally
-Backend
+## Steps to Run Locally
+### Backend
 cd backend
 npm install
 
-Create .env file:
+### Create .env file:
 
 PORT=5000
 MONGO_URI=<your_mongo_uri>
 JWT_SECRET=<your_secret_key>
 
-Start server:
+### Start server:
 
 npm start
 
 Server will run at http://localhost:5000
 
-Frontend
+### Frontend
 cd frontend
 npm install
 
-Create .env file:
+### Create .env file:
 
 REACT_APP_API_URL=http://localhost:5000
 
-Start React app:
+### Start React app:
 
 npm start
 
 App will run at http://localhost:3000
 
-
+---
 
 ## Deployed Screenshots
 ###Login Page
@@ -144,8 +145,8 @@ App will run at http://localhost:3000
 <img width="1783" height="944" alt="Screenshot 2026-02-27 214135" src="https://github.com/user-attachments/assets/f9303639-f11e-402d-8ed7-1af50deff835" />
 <img width="1793" height="947" alt="Screenshot 2026-02-27 214203" src="https://github.com/user-attachments/assets/a0442583-cea6-4cc3-b04e-5bd2af70b881" />
 
-
-Notes
+---
+## Notes
 
 Demo account credentials for quick access:
 
